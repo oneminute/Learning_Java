@@ -73,7 +73,7 @@ public class LinkedList {
                 target = c.getValue();
                 break;
             }
-            i++;    // dont forget increase i
+            i++;    // dont forget to increase i
             c = c.next;
         }
         return target;
