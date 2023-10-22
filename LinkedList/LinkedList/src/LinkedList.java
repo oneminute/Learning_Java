@@ -67,16 +67,25 @@ public class LinkedList {
             throw new Exception("Illegal index");
         int i = 0;
         Node c = head;
-        int target = 0;
-        while (c != null) {
-            if (i == index) {
-                target = c.getValue();
-                break;
-            }
-            i++;    // dont forget to increase i
+
+        // method 1
+        // int target = 0;
+        // while (c != null) {
+        //     if (i == index) {
+        //         target = c.getValue();
+        //         break;
+        //     }
+        //     i++;    // dont forget to increase i
+        //     c = c.next;
+        // }
+        // return target;
+
+        // method 2
+        while (i < index) {
             c = c.next;
+            i++;    // dont forget to increase i
         }
-        return target;
+        return c.value;
     }
     
     public String toString() {
