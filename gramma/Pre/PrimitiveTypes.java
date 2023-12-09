@@ -1,4 +1,4 @@
-package codeStructure.Pre;
+package gramma.Pre;
 
 public class PrimitiveTypes {
     
@@ -176,6 +176,6 @@ public class PrimitiveTypes {
         d1 = i1;
         d1 = l1;
         d1 = f1;
-        d1 = bl1;
+        // d1 = bl1;
     }
 }
