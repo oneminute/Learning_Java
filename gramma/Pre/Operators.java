@@ -74,5 +74,55 @@ public class Operators {
             v1 = v1 << 1;
             System.out.println(Long.toBinaryString(v1 + 0x100000000l).substring(1) + "    " + i);
         }
+
+        // instanceof
+        Object o1 = new Object();
+        System.out.println("o1 instanceof Object = " + (o1 instanceof Object));
+        System.out.println("null instanceof Object = " + (null instanceof Object));
+        int[] arr1 = new int[4];
+        System.out.println("arr1 instanceof Object = " + (arr1 instanceof Object));
+        A objA1 = new A();
+        B objB1 = new B();
+        System.out.println("objA1 instanceof A = " + (objA1 instanceof A));
+        System.out.println("objA1 instanceof B = " + (objA1 instanceof B));
+        System.out.println("objB1 instanceof A = " + (objB1 instanceof A));
+        System.out.println("objB1 instanceof B = " + (objB1 instanceof B));
+
+        // && ||
+        int c1 = 10;
+        int c2 = 10;
+        boolean bl = c1 == 10 || --c2 == 10;
+        System.out.println("c1 = " + c1);
+        System.out.println("c2 = " + c2);
+        System.out.println("bl = " + bl);
+
+        c1 = 10;
+        c2 = 10;
+        bl = c1 != 10 || --c2 == 10;
+        System.out.println("c1 = " + c1);
+        System.out.println("c2 = " + c2);
+        System.out.println("bl = " + bl);
+
+        c1 = 10;
+        c2 = 10;
+        bl = c1 == 10 && --c2 == 10;
+        System.out.println("c1 = " + c1);
+        System.out.println("c2 = " + c2);
+        System.out.println("bl = " + bl);
+
+        c1 = 10;
+        c2 = 10;
+        bl = c1 != 10 && --c2 == 10;
+        System.out.println("c1 = " + c1);
+        System.out.println("c2 = " + c2);
+        System.out.println("bl = " + bl);
     }
+}
+
+class A {
+
+}
+
+class B extends A {
+
 }

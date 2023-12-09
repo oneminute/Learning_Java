@@ -5,18 +5,19 @@ public class Fibonacci {
     public static int fibonacci(int a) {
         if (a == 1)
             return 1;
-        else if (a == 0)
-            return 0;
+        else if (a == 2)
+            return 1;
         else {
-            return a + fibonacci(a - 1);
+            return fibonacci(a - 2) + fibonacci(a - 1);
         }
     }
 
     public static void main(String[] args) {
-        System.out.println("f(0) = " + fibonacci(0));
-        System.out.println("f(1) = " + fibonacci(1));
         System.out.println("f(2) = " + fibonacci(2));
         System.out.println("f(3) = " + fibonacci(3));
         System.out.println("f(4) = " + fibonacci(4));
+        System.out.println("f(5) = " + fibonacci(5));
+        System.out.println("f(6) = " + fibonacci(6));
+        System.out.println("f(7) = " + fibonacci(7));
     }
 }
