@@ -1,3 +1,5 @@
+package gramma.Pre;
+
 public class Constructor {
     public static void main(String[] args) throws Exception {
         C c = new C();  // 请分析输出结果
