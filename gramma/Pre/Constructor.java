@@ -35,11 +35,15 @@ class B extends A {
     int c;
     int d;
     private E e = new E();
+
+    public B() {
+        System.out.println("B()");
+    }
     
     public B(int a) {
         // 如果声明了有参构造函数，那么无参默认构造函数失效
         // custom
-        System.out.println("B()");
+        System.out.println("B(a)");
     }
 }
 

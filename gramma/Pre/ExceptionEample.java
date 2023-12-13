@@ -11,6 +11,15 @@ public class ExceptionEample {
         e1.example3();
         e1.example4();
         e1.example5();
+        try {
+            e1.example7();
+        } catch (FileNotFoundException e) {
+
+        } catch (IOException e) {
+
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
