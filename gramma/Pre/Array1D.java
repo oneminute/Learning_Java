@@ -1,5 +1,6 @@
 package gramma.Pre;
 
+import java.io.IOException;
 import java.util.Arrays;
 
 public class Array1D {
@@ -59,5 +60,41 @@ public class Array1D {
 
         System.out.println();
         Arrays.stream(arrInt7).map(i -> i * 2).forEach(System.out::println);
+
+        int[] arrInt8 = new int[5];
+        modify(arrInt8);
+        printArray(arrInt8);
+
+        int[] arrInt9 = null;
+        initializeArray(arrInt9);
+        printArray(arrInt9);
+
+        byte[] arrByte5 = new byte[1024 * 1024 * 1024];
+        System.out.println("length of arrByte5: " + arrByte5.length);
+
+        try {
+            int i = System.in.read();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void modify(int[] arr) {
+        arr[0] = 5;
+    }
+
+    public static void initializeArray(int[] arr) {
+        arr = new int[10];
+        Arrays.fill(arr, 10);
+    }
+
+    public static void printArray(int[] arr) {
+        if (arr == null) {
+            System.out.println("arr is null");
+            return;
+        }
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("arr[" + i + "] = " + arr[i]);
+        }
     }
 }
