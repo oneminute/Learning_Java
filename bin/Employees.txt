@@ -1,0 +1,20 @@
+Astrix	Allgood	312-945-4350	8732 Dixon Point	Chicago	Illinois	57607	Software Consultant	Information Services	45589	6/16/23
+Tore	Graddon	312-706-2059	294 Carioca Junction	Chicago	Illinois	95500	Community Outreach Specialist	Human Resources	169368	5/17/23
+Tamma	Bromage	815-981-0512	2626 Susan Street	Joliet	Illinois	95123	Programmer II	Information Systems	71363	10/18/22
+Lonnard	Della	312-919-3874	8080 Everett Hill	Schaumburg	Illinois	91141	Social Worker	Human Resources	121915	6/8/22
+Dominique	Fouracre	312-678-1034	27761 Maple Wood Park	Chicago	Illinois	26924	Senior Editor	Research and Development	52785	10/16/23
+Roscoe	Claypoole	309-730-7747	400 Jenna Plaza	Bloomington	Illinois	46637	Business Systems Development Analyst	Marketing	91636	5/5/22
+Gasparo	Lomis	630-543-0052	817 Packers Junction	Aurora	Illinois	47570	Safety Technician II	Engineering	180338	8/13/22
+Eilis	Heakins	217-821-6795	4 1st Pass	Springfield	Illinois	81001	Actuary	Accounting	105802	9/17/23
+Arley	Pauletti	217-839-5224	1 Thierer Parkway	Springfield	Illinois	19764	Product Engineer	Sales	142335	3/22/22
+Aundrea	MacGoun	309-734-8394	22566 Dottie Junction	Peoria	Illinois	21345	Senior Developer	Information Systems	152816	3/26/23
+Archer	Broker	630-717-4249	84309 Delladonna Park	Chicago	Illinois	76744	Administrator I	Engineering	51177	5/24/23
+Jayson	Penbarthy	312-740-1996	6 Dunning Parkway	Chicago	Illinois	79651	Administrator I	Research and Development	46969	7/17/23
+Willow	Ochterlony	708-726-7488	1891 Cody Lane	Schaumburg	Illinois	46788	Administrator II	Accounting	58458	7/24/23
+Mabelle	Resun	309-377-0041	70 Warrior Circle	Peoria	Illinois	40042	Administrator I	Sales	47072	10/30/23
+Jeremie	Premble	312-286-2042	14750 Vernon Alley	Chicago	Illinois	78773	Administrator I	Support	50491	6/24/22
+Merry	Considine	312-954-3849	4444 Kinsman Junction	Chicago	Illinois	73812	Legal Assistant	Marketing	59460	10/7/23
+Mariska	Geratasch	309-737-2132	7282 Dunning Center	Peoria	Illinois	63176	Web Developer II	Training	70744	8/23/23
+Wat	Pyatt	847-779-2891	8 American Crossing	Evanston	Illinois	98049	Office Assistant IV	Support	64556	3/26/23
+Binny	Shellshear	309-655-9798	9 Truax Avenue	Peoria	Illinois	72147	Office Assistant IV	Research and Development	61525	10/23/22
+Kory	Kopelman	630-577-1210	9052 Melby Avenue	Aurora	Illinois	47163	Health Coach II	Support	63341	3/21/23

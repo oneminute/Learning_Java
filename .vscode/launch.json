@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ThreadExample",
+            "request": "launch",
+            "mainClass": "sync.InClass.ThreadExample",
+            "projectName": "learning_java_36bb0cd0"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceExample",
+            "request": "launch",
+            "mainClass": "gramma.InClass.InterfaceExample",
+            "projectName": "learning_java_36bb0cd0"
+        },
+        {
+            "type": "java",
+            "name": "GenericsExample",
+            "request": "launch",
+            "mainClass": "generics.Pre.GenericsExample",
+            "projectName": "learning_java_36bb0cd0"
+        },
+        {
+            "type": "java",
+            "name": "SyncExample",
+            "request": "launch",
+            "mainClass": "sync.Pre.SyncExample",
+            "projectName": "learning_java_36bb0cd0",
+            "vmArgs": "--module-path d:\\Users\\oneminute\\Downloads\\openjfx-21.0.1_windows-x64_bin-sdk\\javafx-sdk-21.0.1\\lib --add-modules javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web"
+        }
+    ]
+}
